@@ -1,0 +1,15 @@
+{
+    "name": "Easy scraper",
+    "description": "this is a personal project made for scraping data for some websites through chrome instead of python scrips. my objective is to build an easy automation tool (chrome extension)",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": ["storage", "activeTab", "declarativeContent", "storage"],
+
+    "icons": { "16": "img/logo16.png", "48": "img/logo128.png", "128": "img/logo128.png" },
+    "browser_action": {
+        "default_popup": "index.html"
+    }
+}
